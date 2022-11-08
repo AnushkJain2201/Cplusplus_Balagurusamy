@@ -1,0 +1,7 @@
+We can overload any C++ operator except the following operators
+1. class members access operators(. , .*)
+2. scope resolution operator(::)
+3. size operator(sizeof)
+4. conditional operator(?:)
+
+we cant overload them because they use class name as their operand than the values, as in the case of other operators
