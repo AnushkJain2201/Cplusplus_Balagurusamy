@@ -1,0 +1,4 @@
+There types of situations might arise in the data conversion between uncompatible types---
+1. Conversion from basic type to class type
+2. Conversion from class type to basic type
+3. Conversion from one class type to another class type

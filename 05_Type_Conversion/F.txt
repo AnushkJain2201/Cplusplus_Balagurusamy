@@ -1,0 +1,17 @@
+One class to another class type
+can be achieved by both constructor or a conversion function
+class x{
+
+}
+class y{
+
+}
+x objX;
+y objY;
+
+objX = objY;
+
+x is the destination class and y is the source class
+
+casting operator function take place in the source class
+constructor take place in the destination class

@@ -1,0 +1,16 @@
+
+// class to basic type 
+// Constuctor function donot support this operation.
+// C++ allows us to define an overloaded cansting operator that could be used to convert a class data type to a basic type
+// The general form of an overloaded casting operator function
+// operator typename()
+// {
+// . . . 
+// . . .             Function Statement
+// . . .
+// }
+
+THe casting operator function should satisfy the following conditions
+1. It must be a class member
+2. It must not specify a return type
+3. It must not have any arguments
