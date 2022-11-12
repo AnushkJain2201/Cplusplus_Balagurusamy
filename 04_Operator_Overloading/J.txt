@@ -1,0 +1,7 @@
+***** Rules for overloading operators ***** 
+1. Only existing operators get overloaded. New operators cannot be created.
+2. The overloaded operator must have at least one operand that is of user defined.
+3. Overloaded operators follow the syntax rule of the original operator. They cannot be overridden.
+4. We cannot use friend function to overload = , () , [] , -> operators.
+5. We cannot overload . , .* , :: , ?: operators.
+6. When using binary operators overloaded through through a member function , the left hand operator must be object of relevant class.
